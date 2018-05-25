@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import albumData from './../data/albums';
-+import albumData from './styles/album.css';
+
 
 class Album extends Component {
   constructor(props) {
