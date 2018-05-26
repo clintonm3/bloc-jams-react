@@ -65,8 +65,8 @@ class Album extends Component {
           <tbody>
           {this.state.album.songs.map((song, index) =>
        		   <tr key = {index} className="song" onClick={() => this.handleSongClick(song)}
-              onMouseEnter={() => this.setState({isHovered: index +1})}
-              onMouseLeave={() => this.setState({isHovered: false })}>
+                onMouseEnter={() => this.setState({isHovered: index +1})}
+                onMouseLeave={() => this.setState({isHovered: false })}>
 
                 <td className="song-actions">
                   <button>
