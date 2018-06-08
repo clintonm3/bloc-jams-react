@@ -1,0 +1,33 @@
+
+#album-info {
+  font-family: impact;
+}
+
+#album-cover-art {
+  padding-top: 50px;
+  background-position: relative;
+  height: 45%;
+  width: 45%;
+}
+
+.song-number {
+  padding-right: 10px;
+}
+
+.song-actions {
+  border-style: solid;
+  background-color: black;
+}
+
+.song-title {
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.song-duration {
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-left: 15px;
+}

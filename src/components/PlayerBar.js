@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '.././styling/PlayerBar.css';
 
  class PlayerBar extends Component {
    render() {
@@ -19,7 +20,7 @@ import React, { Component } from 'react';
            <div className="current-time">{this.props.formatTime(this.props.currentTime)}</div>
            <input
              type="range"
-             className="seek-bar"
+             className="duration-seek-bar"
              value={(this.props.currentTime / this.props.duration) || 0}
              max="1"
              min="0"
@@ -32,7 +33,7 @@ import React, { Component } from 'react';
            <div className="ion-volume-low" onClick={this.props.handleVolumeDownClick}></div>
            <input
              type="range"
-             className="seek-bar"
+             className="volume-seek-bar"
              value={this.props.volume}
              max="1"
              min="0"

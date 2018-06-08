@@ -1,0 +1,45 @@
+.player-bar {
+  background-color: DarkSlateGrey;
+}
+
+#next {
+  padding-left: 10px
+}
+
+.ion-volume-low {
+  margin-left: -165px;
+  margin-bottom: -24px;
+}
+
+.ion-volume-high {
+  margin-right: -165px;
+  margin-top: -24px;
+}
+
+#volume-control {
+  padding-bottom: 20px;
+  color: black;
+}
+
+.duration-seek-bar {
+  width: 50%;
+  color: black;
+  background-color: black;
+
+}
+
+.current-time {
+  font-weight: bold;
+  margin-left: -57%;
+  margin-bottom: -23px;
+}
+
+.total-time {
+  font-weight: bold;
+  margin-left: 57%;
+  margin-top: -23px;
+}
+
+.volume-seek-bar {
+  margin-bottom: -23px;
+}

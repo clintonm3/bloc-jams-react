@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  background-color: SeaGreen;
+}
+
+.website-title {
+  opacity: 1.0;
+  color: white;
+  font-size: 100px;
+  padding-top: 40px;
+  font-family: impact;
+  outline-color: black;
+  outline-width: thick;
+  text-shadow:
+		-4px -4px 0 #000,
+		4px -4px 0 #000,
+		-4px 4px 0 #000,
+		4px 4px 0 #000;
+}
+
+.hero-title {
+  color: white;
+  font-weight: bolder;
+  opacity: 1.0;
+  font-family: serif;
+  outline-color: black;
+  outline-width: thick;
+}
+
+.landing {
+  background: url("/assets/images/mybackground.jpg") no-repeat center center fixed;
+  background-position: center;
+  height: 100%;
+  background-repeat: repeat-y;
+  background-size: 80% 50%;
+  opacity: 1.0;
+  padding-bottom: 250px;
+}
+
+.selling-points {
+  color: white;
+  font-family: serif;
+}
+
+.point-description {
+  margin-bottom: 200px;
+}
+
+.point-main {
+  margin-top: 25px;
+  margin-bottom: -100px;
+}
+
+.point-main {
+  background-color: DarkSlateGrey;
+  margin-bottom: -180px;
+  font-family: impact;
+  outline-color: black;
+}
+
+.point1 {
+  background-color: DarkSlateGrey;
+  font-family: impact;
+}
+
+.point2 {
+  background-color: DarkSlateGrey;
+  font-family: impact;
+}

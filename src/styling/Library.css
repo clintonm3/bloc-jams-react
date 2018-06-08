@@ -1,0 +1,41 @@
+.library-album-pic {
+	width:100%;
+  padding-top: 30%;
+}
+
+.library-album {
+   font-size: 18px;
+   margin-bottom: 30px;
+}
+
+.album-info-1 {
+   color: black;
+   margin-top: 5px;
+}
+
+.album-name {
+	font-weight: bold;
+  text-align: center;
+	color: black;
+}
+
+.album-info-2 {
+   color: black;
+	 font-family: cursive;
+	 font-size: 15px;
+	 margin-bottom: 500%;
+}
+
+.album-list {
+	margin-top: 70px;
+	color: black;
+	font-size: 50px;
+	font-family: impact;
+	margin-bottom: -50px;
+}
+
+.library {
+	background: url("/assets/images/favicon.ico");
+	background-repeat: no-repeat;
+	background-position: 25% 0%;
+}
