@@ -1,6 +1,7 @@
 .library-album-pic {
-	width:100%;
-  padding-top: 30%;
+	padding-top: 10%;
+	height: 30%;
+	width: 30%;
 }
 
 .library-album {
@@ -23,7 +24,6 @@
    color: black;
 	 font-family: cursive;
 	 font-size: 15px;
-	 margin-bottom: 500%;
 }
 
 .album-list {

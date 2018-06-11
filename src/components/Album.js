@@ -156,9 +156,8 @@ class Album extends Component {
                 <td className="song-actions">
                   <button>
                     <span className="song-number">{index + 1}</span>
-                    <button id="play-pause-album" onClick={this.props.handleSongClick} >
-                      <span className={this.props.isPlaying ? 'ion-pause' : 'ion-play'}></span>
-                    </button>
+                    <span id="play-pause-album" onClick={this.props.handleSongClick}></span>
+                    <span className={this.props.isPlaying ? 'ion-pause' : 'ion-play'}></span>
                   </button>
                 </td>
                 <td className="song-title">{song.title}</td>

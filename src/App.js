@@ -4,7 +4,6 @@ import Landing from './components/Landing';
 import Library from './components/Library';
 import Album from './components/Album';
 import './styling/App.css';
-//import * as ReactBootstrap from "react-bootstrap";
 
 class App extends Component {
   render() {
